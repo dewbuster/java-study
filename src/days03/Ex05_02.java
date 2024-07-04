@@ -10,7 +10,7 @@ package days03;
 public class Ex05_02 {
 
 	public static void main(String[] args) {
-		int i = 10, j =3;
+		//int i = 10, j =3;
 		// 주의할 점 0 으로 나눌때 에러
 		// 1. 정수 / 0 
 		// java.lang.ArithmeticException / by zero

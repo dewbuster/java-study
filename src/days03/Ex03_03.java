@@ -19,17 +19,17 @@ public class Ex03_03 {
 		System.out.printf("%04d\n", no);  // 4칸을 비우되 왼쪽 빈칸은 모두 0으로 채운다
 		
 		// 3.14 => double
-		float pi = (float) 3.14;
+		//float pi = (float) 3.14;
 		
-		int i = 100;
+		//int i = 100;
 		// 자동 형 변환
-		long l = i;
+		//long l = i;
 		
 		// 자동 형 변환 2번째 경우
-		long k = l + i ;  // 큰 자료형 + 작은 자료형 = 큰 자료형
+		//long k = l + i ;  // 큰 자료형 + 작은 자료형 = 큰 자료형
 		
 		// 강제 형 변환 (변환하고자 하는 타입) cast 연산자
-		i = (int) 100L;
+		//i = (int) 100L;
 		
 		// () 최우선 연산자  ( 3 + 5 ) * 2 == 16
 	}

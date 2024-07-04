@@ -31,7 +31,7 @@ public class Ex05 {
 		//배열의 크기?
 		System.out.println(kors.length);
 		// 배열의 가장 작은 첨자값(index) == lowerBound = 0
-		// 배열의 가장 큰 첨자값(index) == upperBound = kores.length - 1
+		// 배열의 가장 큰 첨자값(index) == upperBound = kors.length - 1
 		
 		
 	}
