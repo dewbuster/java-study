@@ -30,35 +30,51 @@ public class Ex09 {
 		**
 		*
 		*/
-		for (int i = 1; i <= 4; i++) {
-			for (int j = i; j <=4; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-		
-		System.out.println("=".repeat(30));
-		/* 푸는중
 		for (int i = 4; i >= 1; i--) {
-			for (int j = i; j <=4; j++) {
+			for (int j = 1; j <=i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-		*/
-		
 		/*
+		___*
+		__**
+		_***
+		****
+		*/		
+		
 		System.out.println("=".repeat(30));
 
-		for (int i = 5; i >= 1; i--) {
-			for (int j = 1; j <=i-1; j++) {
+
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 3; j >= i; j--) {
 				System.out.print(" ");
 			}
-			System.out.print("*");
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
 			System.out.println();
 		}
-		*/
 		
+		/*
+		****
+		_***
+		__**
+		___*
+        */
+
+		System.out.println("=".repeat(30));
+		
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 2; j <= i; j++) {
+				System.out.print(" ");
+			}
+			for (int j = 4; j >= i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
 		/*
 		*
         _*
@@ -77,6 +93,7 @@ public class Ex09 {
 			System.out.println();
 		}
 
+
        /*
   	   ____*
 	   ___*
@@ -84,7 +101,7 @@ public class Ex09 {
 	   _*
 	   *
        */
-		
+
 		System.out.println("=".repeat(30));
 		
 		for (int i = 5; i >= 1; i--) {
@@ -94,35 +111,6 @@ public class Ex09 {
 			System.out.print("*");
 			System.out.println();
 		}
-		/*
-
-		 이등변삼각형
-		__*
-		_***
-		*****
-
-		____*
-		___*
-		__*
-		_*
-		*
-
-		*___*
-		_*_*
-		__*
-		_*_*
-		*___*
-
-		마름모
-
-		__*
-		_***
-		*****
-		_***
-		__*
-
-		모래시계
-		 * */
 
 		
 	} // main
