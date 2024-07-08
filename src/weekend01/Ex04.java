@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 public class Ex04 {
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args) {		
+		/*
 		int num = (int)(Math.random() * 101);
 		System.out.println(num);
 
 		num = (int)(Math.random() * 45) + 1;
 		System.out.println(num);
-
+		 */
+		
 		Scanner scanner = new Scanner(System.in);
-
+		
 		int user, com;
 		boolean flag = false;
 		com = (int) ( Math.random() * 3 ) + 1;
