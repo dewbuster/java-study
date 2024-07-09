@@ -3,7 +3,7 @@ package days06;
 public class Test {
 
 	public static void main(String[] args) {
-		/*
+		
 		int sum = 0;
 		boolean sw = false;
 		for (int i = 1; i <= 10; i++) {
@@ -17,7 +17,7 @@ public class Test {
 			sw = !sw;
 		}
 		System.out.printf("\b=%d", sum);
-		*/
+		
 		/*
 		for (int dan = 2; dan <= 9; dan++) {
 			for (int i = 1; i <= 9; i++) {

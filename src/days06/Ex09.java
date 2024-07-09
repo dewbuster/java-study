@@ -46,6 +46,18 @@ public class Ex09 {
 		System.out.println("=".repeat(30));
 
 
+		for (int i = 1; i <= 4; i++) {  // 행 갯수
+			// _ 공백 찍는 for
+			for (int j = 1; j <= 4-i; j++) {
+				System.out.print("_");
+			}
+			// 별 찍는 for
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		} // for i
+		/*
 		for (int i = 1; i <= 4; i++) {
 			for (int j = 3; j >= i; j--) {
 				System.out.print(" ");
@@ -55,6 +67,7 @@ public class Ex09 {
 			}
 			System.out.println();
 		}
+		*/
 		
 		/*
 		****
