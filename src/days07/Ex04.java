@@ -58,6 +58,23 @@ public class Ex04 {
 		
 		System.out.printf("=%d\n", sum);
 		*/
+		/*
+		 * equals(String)=true/false=
+			equalsIgnoreCase(String)=true/false=
+			charAt(index)=char=
+			split(정규식)=String[]
+			trim()=String=
+			format()
+			length()=int=
+			join(구분자, String배열)=String=
+			toCharArray()=char[]=
+			substring(index, index)=String=
+			toUpperCase()=String
+			toLowerCase()=String
+		 * 
+		 *  가변인자 매개변수의 개수가 유동적일때 사용 타입...식별자 로 선언 메서드 내에서 배열 형태로 받는다.
+		 */
+		
 	}
 
 }

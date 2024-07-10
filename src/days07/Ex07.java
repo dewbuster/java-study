@@ -37,7 +37,6 @@ public class Ex07 {
 			System.out.printf("[%d]",lotto[i]);
 		}
 		System.out.println();
-		
 	}
 
 } // class
