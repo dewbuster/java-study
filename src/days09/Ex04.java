@@ -31,8 +31,6 @@ public class Ex04 {
 			if(i % 8 == 7) System.out.print(" ");
 		}
 		System.out.println();
-		
-
 	}
 
 }

@@ -9,7 +9,7 @@ public class Ex06 {
 		String name;
 		int kor, eng, mat, tot, rank;
 		double avg;
-		final int STUDENT_COUNT = 25;
+		final int STUDENT_COUNT = 30;
 		String[] names = new String[STUDENT_COUNT];
 		int[] kors = new int[STUDENT_COUNT];
 		int[] engs = new int[STUDENT_COUNT];
