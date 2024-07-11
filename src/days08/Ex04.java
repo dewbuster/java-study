@@ -8,12 +8,12 @@ public class Ex04 {
 		
 		int money = 125760;
 		int count = 0;
-		int share, reminder;  // 몫, 나머지 변수
+		int reminder;  // 몫, 나머지 변수
 		
 		int [] unit = { 50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1 };
 		String [] sunit = { "5만원", "1만원", "5천원", "1천원", "5백원", "1백원", "5십원", "1십원", "5원", "1원" };
 		for (int i = 0; i < unit.length; i++) {
-			count = share = money / unit[i];
+			count =  money / unit[i];
 			reminder = money % unit[i];
 			System.out.printf("%s : %d 개 \t\t %d\n"
 					, sunit[i], count, reminder);

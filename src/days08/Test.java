@@ -15,9 +15,10 @@ public class Test {
 			
 		} while (!rrn.matches("\\d{6}-\\d{7}"));
 		
-		
 		int americanAge = getAmericanAge(rrn);
 		System.out.println(americanAge);
+		
+		scanner.close();
 	}
 
 	public static int getAmericanAge(String rrn) {
@@ -44,14 +45,13 @@ public class Test {
 		
 		int thisMonth = cal.get(Calendar.MONTH) + 1;
 		int thisDay = cal.get(Calendar.DATE);
-
+		
 		int thisMD = thisMonth * 100 + thisDay;
 		int birthMD = Integer.parseInt(rrn.substring(2,6));
-
+		
 		
 		if (thisMD < birthMD) {
 			age--;
-			System.out.println("생일지나지 않음");
 		}
 		
 		return age;
