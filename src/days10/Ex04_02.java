@@ -13,7 +13,7 @@ public class Ex04_02 {
 			for (int i = 0; i < m.length; i++) {
 				temp[i] = m[i];
 			}
-			m = temp;	
+			m = temp; 
 		}
 
 	}
