@@ -5,6 +5,7 @@ public class Ex03 {
 	public static void main(String[] args) {
 		// 클래스 - 객체의 설계도
 		// 객체 - 클래스를 자료형으로 선언된 참조변수
+		// 인스턴스 - 생성된 객체
 		//Tv t1; -> 객체 
 		// new Tv(); -> 인스턴스화
 		// 인스턴스 힙영역->[power][channel][color][p..()메서드주소값][c..()메서드주소값][c..()메서드주소값]

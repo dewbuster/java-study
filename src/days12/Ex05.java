@@ -2,7 +2,7 @@ package days12;
 /**
  * @author User
  * @subject [접근지정자] 설명
- *@content  1) 클래스 선언
+ * @content  1) 클래스 선언
  *				ㄱ. public - 패키지 내부,외부 어디든 상속과 참조 가능
  *				ㄷ. package(default) - 패키지 내부에서만 상속과 참조 가능
  *					
