@@ -25,6 +25,7 @@ public class Regular extends Employee {
 		this.basePay = basePay;
 	}
 	
+	@Override
 	public int getPay() {
 		
 		return this.basePay;

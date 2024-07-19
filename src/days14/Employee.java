@@ -5,7 +5,7 @@ package days14;
 //@Setter
 // 사원 클래스
 // 모든 사원들이 공통적으로 가지고 있을 멤버들을 선언
-public class Employee {
+public abstract class Employee {
 	
 	private String name;
 	private String addr;
@@ -13,7 +13,7 @@ public class Employee {
 	private String hiredate;
 	
 	public Employee() {
-		super();	
+		super();
 		System.out.println("> Employee 디폴트 생성자 호출됨.");
 	}
 	
@@ -64,5 +64,7 @@ public class Employee {
 		System.out.printf("사원명:%s, 주소:%s, 연락처:%s, 입사일자:%s\n"
 				,this.name, this.addr, this.tel, this.hiredate);
 	}
+	// This method requires a body instead of a semicolon
+	public abstract int getPay();
 	
 }
