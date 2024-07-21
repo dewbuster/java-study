@@ -1,8 +1,6 @@
 package weekend03;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Ex02 {
 

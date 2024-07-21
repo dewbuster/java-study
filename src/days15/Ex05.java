@@ -7,7 +7,7 @@ package days15;
  * @content 
  */
 public class Ex05 {
-
+ 
 	public static void main(String[] args) {
 		// The constructor BoardDAO() is not visible
 		// BoardDAO dao = new BoardDAO();
