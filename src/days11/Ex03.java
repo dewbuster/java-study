@@ -1,10 +1,10 @@
 package days11;
 
 public class Ex03 {
-	/*
+	
 	static int[] index = new int[1];
     static int count = 0;
-*/
+
 	public static void main(String[] args) {
 		
 		int  n = 71;
@@ -33,8 +33,8 @@ public class Ex03 {
 	}
 
 
-/*
-	private static void indexOf(int[] m, int n) {
+
+	public static void indexOf(int[] m, int n) {
 		for (int i = 0; i < m.length; i++) {
 			if ( m[i] == n ) {
 				if (count < index.length) {
@@ -48,6 +48,6 @@ public class Ex03 {
 			}
 		}
 	}
-*/
+
 
 }

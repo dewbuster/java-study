@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/eclipse/lombok.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Class/Download/Eclipse IDE for Enterprise Java and Web Developers 2021-09/eclipse/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

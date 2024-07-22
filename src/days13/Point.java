@@ -28,8 +28,11 @@ public class Point {
 		System.out.printf("> x=%d, y=%d\n", x, y);
 	}
 
-	// Duplicate method plusPoint(Point) in type Point
-	
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+
 	public void plusPoint(Point p) {
 		x = x + p.x;
 		y = y + p.y;
