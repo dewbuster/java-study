@@ -11,10 +11,6 @@ public class Ex08 {
 		s.replace(" ", "");
 		StringTokenizer st = new StringTokenizer(s, ",");
 		
-		// st.hasMoreTokens(); st.nextToken();
-		while (st.hasMoreTokens()) {
-			
-		}
 		/*
 		String[] names = s.split(regex);
 		for (String string : names) {
