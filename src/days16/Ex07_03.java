@@ -21,22 +21,36 @@ public class Ex07_03 {
 	      3   "수박수"
 	      4   "수박수박"
 		 */
-		int n = 8;
+		int n = 50;
 		System.out.println(solution(n));
+		System.out.println(solution2(n));
 	}
-	/*
-	private static String solution(int n) {
-		StringBuilder s = new StringBuilder();
-		for (int i = 0; i < n; i++) {
-			s.append(i % 2 == 0 ? "수" : "박");
-		}
-		String answer = s.toString();
-		return answer;
-	}
-	*/
 	
 	private static String solution(int n) {
-		return IntStream.range(0, n).mapToObj(i->i%2==0?"수":"박").collect(Collectors.joining());
+		long start = System.currentTimeMillis();
+		try {
+			StringBuilder s = new StringBuilder();
+			for (int i = 0; i < n; i++) {
+				s.append(i % 2 == 0 ? "수" : "박");
+			}
+			String answer = s.toString();
+			
+			return answer;
+		} finally {
+			long finish = System.currentTimeMillis();
+			System.out.println(finish - start + "ms");
+		}
+	}
+	
+	
+	private static String solution2(int n) {
+		long start = System.currentTimeMillis();
+		try {
+			return IntStream.range(0, n).mapToObj(i->i%2==0?"수":"박").collect(Collectors.joining());
+		} finally {
+			long finish = System.currentTimeMillis();
+			System.out.println(finish - start + "ms");
+		}
 	}
 
 }
