@@ -10,6 +10,13 @@ public class Ex08 {
 		String regex = "\\s*,\\s*";
 		s.replace(" ", "");
 		StringTokenizer st = new StringTokenizer(s, ",");
+
+		// st.hasMoreTokens();  st.nextToken()
+		while ( st.hasMoreTokens() ) {
+			String name = st.nextToken();
+			System.out.println( name );
+		}
+
 		
 		/*
 		String[] names = s.split(regex);
