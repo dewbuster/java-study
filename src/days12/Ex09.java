@@ -41,14 +41,7 @@ public class Ex09 {
 			rank = 1;
 			avg = (double) tot / 3;
 
-			students[count] = new Student();
-			students[count].name = name;
-			students[count].kor = kor;
-			students[count].eng = eng;
-			students[count].mat = mat;
-			students[count].tot = tot;
-			students[count].avg = avg;
-			students[count].rank = rank;
+			students[count] = new Student(name, kor, eng, mat, tot, rank, avg);
 
 			System.out.print("계속 입력 ? ");
 			con = (char) System.in.read();

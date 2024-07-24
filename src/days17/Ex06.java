@@ -31,7 +31,7 @@ public class Ex06 {
 		try ( FileReader reader = new FileReader(fileName)){
 			int code;
 			while( (code = reader.read()) != -1) {
-				System.out.println(code);
+				//System.out.println(code);
 				if (Character.isUpperCase((char)code)) {
 					// code == 65 == 'A'
 					counts[0][code - 'A']++;
