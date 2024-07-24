@@ -16,7 +16,7 @@ public class Ex03_04 {
 
 	public static void main(String[] args) {
 		
-		// java.time 핵심클래스 불면
+		// java.time 핵심클래스 불변
 		LocalDate ld = LocalDate.now();
 		System.out.println(ld);
 		

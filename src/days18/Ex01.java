@@ -22,7 +22,7 @@ public class Ex01 {
 		Date sd = start.getTime();
 		System.out.println(sd.toLocaleString());
 		
-		/*
+		
 		System.out.println("=".repeat(30));
 		System.out.println("=".repeat(30));
 		for (int i = 1; i <= 42; i++) {
@@ -38,7 +38,7 @@ public class Ex01 {
 		}
 		System.out.println();
 		System.out.println("=".repeat(30));
-		*/
+		
 		
 		// 24.6.30(시작날짜) ~ 42일
 	} // main
@@ -50,7 +50,7 @@ public class Ex01 {
 
 	private static int getDayOfWeek(int year, int month, int date) {
 		Calendar c = new GregorianCalendar(year, month-1, 1);
-		return c.get(Calendar.DAY_OF_MONTH)-1;  // (일) 1 ~ (토) 7;
+		return c.get(Calendar.DAY_OF_WEEK)-1;  // (일) 1 ~ (토) 7;
 	}
 
 }
