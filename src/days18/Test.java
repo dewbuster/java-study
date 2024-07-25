@@ -61,8 +61,7 @@ public class Test {
 		System.out.println(d.toMinutes());
 		System.out.println(d.toHours());
 
-		
-		
+
 	}
 
 }
