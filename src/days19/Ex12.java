@@ -2,6 +2,7 @@ package days19;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -30,6 +31,12 @@ public class Ex12 {
 		hm.put("hong", "홍길동");
 		hm.put("keni", "이창익");
 		
+		for (Map.Entry<String, String> entry : hm.entrySet()) {
+			String key = entry.getKey();
+			String val = entry.getValue();
+			System.out.printf("key = %s ,value = %s  ", key, val);
+		}
+
 		Set<Entry<String, String>> es = hm.entrySet();
 		Iterator<Entry<String, String>> ir = es.iterator();
 		while (ir.hasNext()) {
@@ -37,7 +44,7 @@ public class Ex12 {
 					.next();
 			System.out.printf("%s=%s\n", entry.getKey(), entry.getValue());
 		}
-		
+
 		
 		/*
 		System.out.println(hm);

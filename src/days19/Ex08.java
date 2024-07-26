@@ -11,7 +11,6 @@ import days12.Student;
 public class Ex08 {
 
 	public static void main(String[] args) throws IOException {
-		// [문제] 3반의 30명의 학생의 성적처리...
 
 		ArrayList<ArrayList<Student>> students = new ArrayList<ArrayList<Student>>();
 
@@ -39,13 +38,29 @@ public class Ex08 {
 			avg = (double) tot / 3;
 			rank = wrank = 1;
 			
-			students.get(ban).add(new Student(name, kor, eng, mat, tot, rank, avg));
+			students.get(ban).add(new Student(name, kor, eng, mat, tot, rank, wrank, avg));
 
 			System.out.print("> 입력 계속? ");
 			con = (char)System.in.read();
 			System.in.skip(System.in.available());
 
 		} while (Character.toUpperCase(con) == 'Y');
+		
+		for (int i = 0; i < students.size(); i++) {
+			for (int j = 0; j < students.get(i).size(); j++) {
+				
+				for (int i2 = 0; i2 < students.size(); i2++) {
+					for (int j2 = 0; j2 < students.get(i2).size(); j2++) {
+						if (students.get(i).get(j).tot < students.get(i2).get(j2).tot) {
+							students.get(i).get(j).wrank++;
+							if(i == i2) {
+								students.get(i).get(j).rank++;
+							}
+						}
+					}
+				}
+			}
+		}
 		
 		int count = 1;
 		Iterator<ArrayList<Student>> ir = students.iterator();

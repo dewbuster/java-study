@@ -17,7 +17,7 @@ public class Ex05 {
 		// ㄷ. 클래스 ArrayList 사용 + Student 클래스 요소
 		Scanner scanner = new Scanner(System.in);
 		String name;
-		int kor, eng, mat, tot, rank;
+		int kor, eng, mat, tot, rank, wrank;
 		double avg;
 		char con = 'Y';
 		final int STUDENT_COUNT = 30;
@@ -31,10 +31,10 @@ public class Ex05 {
 			eng = getScore();
 			mat = getScore();
 			tot = kor + eng + mat;
-			rank = 1;
+			rank = wrank = 1;
 			avg = (double) tot / 3;
 
-			Student s = new Student(name, kor, eng, mat, tot, rank, avg);
+			Student s = new Student(name, kor, eng, mat, tot, rank, wrank, avg);
 			
 			list.add(s);
 

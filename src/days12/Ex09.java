@@ -8,7 +8,7 @@ public class Ex09 {
 
 	static Scanner scanner = new Scanner(System.in);
 	static String name;
-	static int kor, eng, mat, tot, rank;
+	static int kor, eng, mat, tot, rank, wrank;
 	static double avg;
 	static int count = 0;
 	static char con = 'Y';
@@ -38,10 +38,10 @@ public class Ex09 {
 			eng = getScore();
 			mat = getScore();
 			tot = kor + eng + mat;
-			rank = 1;
+			rank = wrank = 1;
 			avg = (double) tot / 3;
 
-			students[count] = new Student(name, kor, eng, mat, tot, rank, avg);
+			students[count] = new Student(name, kor, eng, mat, tot, rank, wrank, avg);
 
 			System.out.print("계속 입력 ? ");
 			con = (char) System.in.read();

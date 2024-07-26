@@ -7,7 +7,7 @@ public class Student {
 	public double avg;
 	
 	public Student() {}
-	public Student(String name, int kor, int eng, int mat, int tot, int rank, double avg) {
+	public Student(String name, int kor, int eng, int mat, int tot, int rank, int wrank, double avg) {
 		super();
 		this.name = name;
 		this.kor = kor;
@@ -15,6 +15,7 @@ public class Student {
 		this.mat = mat;
 		this.tot = tot;
 		this.rank = rank;
+		this.wrank = wrank;
 		this.avg = avg;
 	}
 	
