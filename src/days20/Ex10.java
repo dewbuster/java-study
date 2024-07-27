@@ -34,7 +34,7 @@ public class Ex10 {
 			
 			break;
 		case HEART:
-			
+			System.out.println("11");
 			break;
 		case DIAMOND:
 			
